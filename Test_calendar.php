@@ -11,12 +11,12 @@ class Test_calendar extends TestCase{
     }
 
     public function testAdd1(){
-        $this->assertEquals("Wednesday",$this->Calendar->showday(03,02));
+        $this->assertEquals("Wednesday",$this->Calendar->showdate(03,02));
     }
     public function testAdd2(){
-        $this->assertEquals("Friday",$this->Calendar->showday(15,01));
+        $this->assertEquals("Friday",$this->Calendar->showdate(15,01));
     }
     public function testAdd3(){
-        $this->assertEquals("Tuesday",$this->Calendar->showday(20,04));
+        $this->assertEquals("Tuesday",$this->Calendar->showdate(20,04));
     }
 }

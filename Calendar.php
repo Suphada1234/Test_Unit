@@ -10,7 +10,7 @@ $date = "2021-$month-$day";
 $dayOfWeek = date("l", strtotime($date));
 
 //Print out the day that our date fell on.
-echo $date . ' เป็นวัน ' . $dayOfWeek;
+//echo $date . ' เป็นวัน ' . $dayOfWeek;
 return $dayOfWeek;
     }
 }
